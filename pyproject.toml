@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "aibot-file-upload-analyzer"
+version = "0.1.0"
+description = "PandasAI, OpenAI and Streamlit - Analyzing File Uploads with User Prompts"
+authors = ["alex00pep <alexmtnezf@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "aibot_file_upload_analyzer"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pypdf2 = "^3.0.1"
+faiss-cpu = "^1.7.4"
+huggingface-hub = "^0.16.4"
+python-dotenv = "^1.0.0"
+langchain = "^0.0.271"
+streamlit = "^1.25.0"
+streamlit-extras = "^0.3.0"
+pandasai = "^1.0.8"
+matplotlib = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
